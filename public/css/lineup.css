@@ -1,0 +1,52 @@
+#header {
+    text-align: center;
+    width: 100%;
+}
+
+#list {
+    list-style-type: none;
+    padding: 0;
+    margin: 2.5%;
+}
+
+#list li {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+li ul {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+li ul li {
+    display: table-cell;
+    text-align: center;
+    border: 1px solid gainsboro;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+
+li img {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
